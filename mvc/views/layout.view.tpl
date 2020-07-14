@@ -9,6 +9,7 @@
             <link rel="stylesheet" href="public/css/papier.css" />
             <link rel="stylesheet" href="public/css/estilo.css" />
             <link rel="stylesheet" href="public/css/layout.css">
+
             <script src="public/js/jquery.min.js"></script>
             <script src="public/js/layout.js"></script>
             {{foreach css_ref}}
@@ -24,7 +25,7 @@
                     <ul>
                         <li class="active"><a href="index.php?page=home" class="{{index}}">INICIO</a></li>
                         <li><a href="index.php?page=nuestraH" class="{{index}}">NUESTRA HISTORIA</a></li>
-                        <li><a href="index.php?page=index" class="{{index}}">FORMA PARTE DE LA FAMILIA</a></li>
+                        <li><a href="index.php?page=unete" class="{{index}}">FORMA PARTE DE LA FAMILIA</a></li>
                         <li><a href="index.php?page=index" class="{{index}}">APADRINA</a></li>
                         <li><a href="index.php?page=index" class="{{index}}">MVC</a></li>
                     </ul>
@@ -44,7 +45,8 @@
             <!-- contenido -->
 
            <!-- footer -->
-            <footer>
+           
+ <footer>
        
         <div class="container-footer-all">
          
@@ -110,8 +112,6 @@
              </div>
          
      </footer>
-           
-
 
           <!-- footer -->
             {{foreach js_ref}}

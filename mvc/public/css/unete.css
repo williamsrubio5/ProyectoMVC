@@ -6,12 +6,10 @@
 img {
   display: block;
   max-width: 100%;
-
 }
-body{
+body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 0px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -49,7 +47,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: auto;
   cursor: pointer;
 }
-
 /*------------------Estilos del menu------------------*/
 .nav {
   position: absolute;
@@ -100,43 +97,27 @@ h1, h2, h3, h4, h5, h6 {
 .banner__txt {
   display: none;
 }
-/*--------------Estilos de banner--------------*/
-
-.banner {
-  margin-top: -60px;
-  position: relative;
-  z-index: -1000;
-  margin-bottom: 20px;
-}
-
-
-.logo, .icon-menu {
-  top: 20px;
-  margin: 35px;
-  color: #fff;
-}
-
-.contenedor {
-  display: flex;
-  justify-content: space-between;
-}
-
-.banner .contenedor {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  width: 100%;
-  color: #fff;
-  text-align: center;
-}
-
-.banner__txt {
-  display: none;
-}
 
 /*-----------------Estilos de info-----------------*/
+.info__columna1 {
+  background: #008677  ;
+  color: #fff;
+  padding: 15px;
+  margin-bottom: 60px;
+}
 
+.info__columna2 {
+  background: #ffbb00;
+  color: #fff;
+  padding: 41px;
+  margin-bottom: 30px;
+}
+.info__columna3 {
+  background: #008677 ;
+  color: #fff;
+  padding: 15px;
+  margin-bottom: 60px;
+}
 
 .cuadro {
   width: 60%;
@@ -154,13 +135,39 @@ h1, h2, h3, h4, h5, h6 {
 
 span { 
 display:block;
+text-align:left;
 font-size:16pt;
-text-align: justify;
+
+}
+
+/*-----------------Estilos de cursos-----------------*/
+.cursos__columna {
+  position: relative;
+  margin-bottom: 30px;
+}
+.cursos__descripcion {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background: rgba(0,0,0,0.5);
+  width: 60%;
+  height: 100%;
+  padding: 5px;
+}
+.cursos__titulo {
+  font-size: 25px;
+  margin: 5px 0;
+}
+.cursos__img {
+  width: 100%;
 }
 
 
 
+
 /*-----------------Estilos de footer-----------------*/
+
 .footer {
   background: #333;
   color: #fff;
@@ -321,6 +328,7 @@ footer{
 
 
 
+
 /*------------------Estilos responsive------------------*/
 
 @media(min-width:480px) {
@@ -369,6 +377,7 @@ footer{
   .cursos__titulo {
     font-size: 40px;
   }
+  
 }
 
 @media(min-width:1024px) {  
@@ -424,6 +433,7 @@ footer{
     font-size: 20px;
   }
 
+  
  
 }
 
@@ -440,6 +450,7 @@ footer{
   .info {
     margin-top: -220px;
   }
+  
 }
 
 
