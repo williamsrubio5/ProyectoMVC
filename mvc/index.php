@@ -52,17 +52,29 @@ case "nosotros":
     include_once "controllers/home.control.php";
     die();
 
+<<<<<<< Updated upstream
     case "unete":
+=======
+case "unete":
+>>>>>>> Stashed changes
         include_once "controllers/unete.control.php";
         die();
 case "nuestraH":
         include_once "controllers/nuestraH.control.php";
         die();
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     
 case "recreacion":
         include_once "controllers/recreacion.control.php";
         die();
   
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 }
 
 //Este switch se encarga de todo el enrutamiento que ocupa login
