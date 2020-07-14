@@ -48,6 +48,11 @@ case "logout":
 case "nosotros":
     include_once "controllers/security/logout.control.php";
     die();
+   
+    case "recreacion":
+          include_once "controllers/recreacion.control.php";
+          die();
+  
 
 }
 
