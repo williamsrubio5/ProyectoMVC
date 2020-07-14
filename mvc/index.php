@@ -51,20 +51,18 @@ case "logout":
 case "nosotros":
     include_once "controllers/home.control.php";
     die();
-<<<<<<< HEAD
+
     case "unete":
         include_once "controllers/unete.control.php";
         die();
 case "nuestraH":
         include_once "controllers/nuestraH.control.php";
         die();
-=======
     
 case "recreacion":
         include_once "controllers/recreacion.control.php";
         die();
   
->>>>>>> miparte
 }
 
 //Este switch se encarga de todo el enrutamiento que ocupa login
