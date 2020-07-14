@@ -39,12 +39,15 @@ case "home":
     //llamar al controlador
     include_once "controllers/home.control.php";
     die();
+
 case "login":
     include_once "controllers/security/login.control.php";
     die();
+
 case "logout":
     include_once "controllers/security/logout.control.php";
     die();
+
 case "nosotros":
     include_once "controllers/security/logout.control.php";
     die();
@@ -53,7 +56,6 @@ case "nosotros":
           include_once "controllers/recreacion.control.php";
           die();
   
-
 }
 
 //Este switch se encarga de todo el enrutamiento que ocupa login
