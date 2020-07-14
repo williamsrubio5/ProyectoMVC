@@ -22,11 +22,11 @@
                   <nav>
                     <div class="dot"></div>
                     <ul>
-                        <li class="active"><a href="#">INICIO</a></li>
-                        <li><a href="#">NUESTRA HISTORIA</a></li>
-                        <li><a href="#">FORMA PARTE DE LA FAMILIA</a></li>
-                        <li><a href="#">APADRINA</a></li>
-                        <li><a href="#">MVC</a></li>
+                        <li class="active"><a href="index.php?page=index" class="{{index}}">INICIO</a></li>
+                        <li><a href="index.php?page=index" class="{{index}}">NUESTRA HISTORIA</a></li>
+                        <li><a href="index.php?page=index" class="{{index}}">FORMA PARTE DE LA FAMILIA</a></li>
+                        <li><a href="index.php?page=index" class="{{index}}">APADRINA</a></li>
+                        <li><a href="index.php?page=index" class="{{index}}">MVC</a></li>
                     </ul>
                 </nav>
 
