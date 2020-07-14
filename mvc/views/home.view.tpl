@@ -50,7 +50,7 @@
                 <h3>Recreacion</h3>
                 <p>Fortalezemos las capacidades para tener una mejor comunicación con sus padres, para tomar decisiones saludables y prevenir conductas de riesgo.</p>
                 
-                <a class = "Busqueda" href="recreacion.html">Leer Mas<a>
+                <a class = "Busqueda" href="index.php?page=recreacion" class="{{index}}">Leer Mas<a>
              
             </div>
             </div>
