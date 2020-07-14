@@ -26,8 +26,8 @@
                         <li class="active"><a href="index.php?page=home" class="{{index}}">INICIO</a></li>
                         <li><a href="index.php?page=nuestraH" class="{{index}}">NUESTRA HISTORIA</a></li>
                         <li><a href="index.php?page=unete" class="{{index}}">FORMA PARTE DE LA FAMILIA</a></li>
-                        <li><a href="index.php?page=index" class="{{index}}">APADRINA</a></li>
-                        <li><a href="index.php?page=index" class="{{index}}">MVC</a></li>
+                        <li><a href="index.php?page=" class="{{index}}">APADRINA</a></li>
+                        <li><a href="index.php?page=recreacion" class="{{index}}">MVC</a></li>
                     </ul>
                 </nav>
 
