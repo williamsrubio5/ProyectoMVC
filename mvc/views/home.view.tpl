@@ -11,9 +11,9 @@
             <h2>PROYECTO </h2>
             <h2>ATENCION INTEGRAL PARA LA NIÑEZ Y JUVENTUD 
                 “ CONSTRUYENDO VIDAS” 
-                </h2>
+            </h2>
           
-          </div>
+        </div>
         
        </div>
 
