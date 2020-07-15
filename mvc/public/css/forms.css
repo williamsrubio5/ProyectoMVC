@@ -1,0 +1,56 @@
+input {
+    border: 1px solid #444;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    box-shadow: 1px 1px 3px #999;
+    border-radius: 5px;
+    outline: none;
+  }
+  input:focus {
+    border: 1px solid #3f51b5;
+  }
+  fieldset {
+    border: none;
+  }
+  button {
+    border: 1px solid #444;
+    padding: 1em 1.5em;
+    font-size: 1em;
+    box-shadow: 3px 3px 5px #999;
+    background-color: #EEE;
+    border-radius: 5px;
+  }
+  button.primary {
+    background-color: #303F9F;
+    color: #FFF;
+    border-color: #1a237e;
+  }
+  button.danger {
+    background-color: #FF5252;
+    color: #FFF;
+    border-color: #d32f2f;
+  }
+  input.material {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #444;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+  input.material:focus {
+    border-bottom: 2px solid #3f51b5;
+  }
+  label.material {
+    padding-top: 18px;
+    padding-bottom: 12px;
+  }
+  
+  .error{
+    color:rgb(146, 0, 0);
+    font-size: 0.7em;
+  }
+  label{
+    display: block;
+  }
+  
