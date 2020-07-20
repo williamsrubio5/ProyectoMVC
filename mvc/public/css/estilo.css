@@ -161,7 +161,7 @@ body, .menu, .contenido, .footer {
 
 .contenido {
   padding: 1em;
-  margin-top: 51px;
+  margin-top: -50px;
   line-height: 1.5;
 }
 

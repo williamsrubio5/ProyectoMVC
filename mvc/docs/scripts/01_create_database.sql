@@ -1,3 +1,3 @@
-CREATE SCHEMA `demoalgorith` ;
-CREATE USER 'demouser'@'%' IDENTIFIED BY 'carm3l1t4s';
-GRANT ALL ON demoalgorith.* TO 'demouser'@'%';
+CREATE SCHEMA `pmvc` ;
+CREATE USER 'admin'@'localhost' IDENTIFIED WITH mysql_native_password BY 'admin';
+GRANT ALL PRIVILEGES ON *.* TO 'admin'@'localhost' WITH GRANT OPTION;

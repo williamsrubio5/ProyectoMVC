@@ -60,6 +60,13 @@ case "nuestraH":
 case "recreacion":
         include_once "controllers/recreacion.control.php";
         die();
+ case "register":
+         include_once "controllers/register.control.php";
+         die();
+case "apadrinar":
+        include_once "controllers/apadrinar.control.php";
+        die();
+        
     }
 
 //Este switch se encarga de todo el enrutamiento que ocupa login
