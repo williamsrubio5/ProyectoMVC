@@ -1,5 +1,5 @@
 input {
-<<<<<<< Updated upstream
+
     border: 1px solid #444;
     padding: 0.5em 1em;
     font-size: 1em;
@@ -55,7 +55,7 @@ input {
     display: block;
   }
   
-=======
+  button{
   border: 1px solid #444;
   padding: 0.5em 1em;
   font-size: 1em;
@@ -110,4 +110,4 @@ label.material {
 label{
   display: block;
 }
->>>>>>> Stashed changes
+

@@ -64,8 +64,8 @@ document.addEventListener("DOMContentLoaded",
       }
     });
   }
-<<<<<<< Updated upstream
+
 );
-=======
-);
->>>>>>> Stashed changes
+
+
+
