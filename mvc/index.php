@@ -47,10 +47,6 @@ case "login":
 case "logout":
     include_once "controllers/security/logout.control.php";
     die();
-
-case "nosotros":
-    include_once "controllers/home.control.php";
-    die();
 case "unete":
         include_once "controllers/unete.control.php";
         die();
@@ -66,6 +62,21 @@ case "recreacion":
 case "apadrinar":
         include_once "controllers/apadrinar.control.php";
         die();
+case "ayudas":
+            include_once "controllers/ayudas.control.php";
+            die();
+case "ingles":
+            include_once "controllers/ingles.control.php";
+            die();
+ case "computacion":
+            include_once "controllers/computacion.control.php";
+            die();
+case "deportes":
+            include_once "controllers/deportes.control.php";
+            die();
+case "proyectos":
+            include_once "controllers/proyectos.control.php";
+            die();
         
     }
 

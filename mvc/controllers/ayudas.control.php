@@ -6,9 +6,9 @@
  */
 
   function run(){
-    addCssRef("public/css/home.css");
+    addCssRef("public/css/ayudahum.css");
 
-    renderizar("home",Array());
+    renderizar("ayudas",Array());
   }
   run();
 ?>

@@ -1,13 +1,4 @@
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,user-scalable=no ,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
-    
-    <link rel="stylesheet"   href="public/css/recreacion.css">
-    <script src="https://kit.fontawesome.com/a27d97ec24.js" crossorigin="anonymous"></script>
-    <title>Recreacion</title>
-</head>
-<body>
 
     <div class="banner">
      <img src="public/img/IMG1.jpg" alt="">
@@ -58,4 +49,3 @@
 </main>
 
     <script src="public/js/javascript.js"></script>
-  </body>

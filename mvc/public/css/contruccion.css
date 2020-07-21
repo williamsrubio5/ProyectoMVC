@@ -1,0 +1,440 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+* {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 1.5px;
+}
+.section__titulo {
+  text-align: center;
+  font-size: 40px;
+  color: #FBA919;
+}
+.contenedor {
+  margin: auto;
+  width: 99%;
+}
+/*-------------------Estilos del header-------------------*/
+.header {
+  height: 60px;
+}
+.header .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+.logo, .icon-menu {
+  margin: 5px;
+  color: #fff;
+}
+.icon-menu {
+  display: block;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 5px;
+  margin-left: auto;
+  cursor: pointer;
+}
+/*------------------Estilos del menu------------------*/
+.nav {
+  position: absolute;
+  top: 60px;
+  left: -100%;
+  width: 100%;
+  transition: all 0.4s;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu__link {
+  display: block;
+  padding: 15px;
+  background: #FBA919;
+  text-decoration: none;
+  color: #fff;
+}
+.menu__link:hover, .select {
+  background: white;
+  color: #FBA919;
+}
+.mostrar {
+  left: 0;
+}
+
+/*--------------Estilos de banner--------------*/
+
+.banner {
+  margin-top: -60px;
+  position: relative;
+  z-index: -1000;
+  margin-bottom: 20px;
+}
+
+.banner .contenedor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+.banner__txt {
+  display: none;
+}
+
+/*-----------------Estilos de info-----------------*/
+
+
+.cuadro {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.cuadro h2{
+  margin-top:2.5em;
+  margin-bottom:1.5em;
+  color: #009ca8;
+  font-size:20pt;
+}
+
+#main-container{
+
+  margin: 1px;
+  width: auto;
+}
+
+table{
+background-color:white;
+text-align: center;
+border-collapse: collapse;
+width: 100%;
+
+}
+
+th, td{
+
+  border: solid 1px black;
+  padding: 15px;
+}
+
+thead{
+
+  background-color: #246355;
+  border-bottom: solid 5px #0f360f;
+  color: white
+}
+
+tr:nth-child(even){
+background-color:#ddd;
+
+}
+
+tr:hover td{
+
+  background-color: #369681;
+  color: white;
+}
+
+/*-----------------Estilos de footer-----------------*/
+
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer .social [class^="icon-"] {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  background: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 40px;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+footer{
+  width: 100%;
+  background: #008677;
+  color: white;   
+  margin-top:2.5em;
+}
+
+.container-footer-all{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+}
+
+.container-body{
+  display: flex;
+  justify-content: space-between;
+}
+
+.colum1{
+  max-width: 400px;
+}
+
+.colum1 h1{
+  font-size: 22px;
+}
+
+.colum1 p{
+  font-size: 14px;
+  color:  #fff;
+  margin-top: 20px;
+}
+
+.colum2{
+  max-width: 400px;
+  
+}
+
+.colum2 h1{
+  font-size: 22px;
+}
+
+.row{
+  margin-top: 20px;
+  display: flex;
+}
+
+.row img{
+  width: 36px;
+  height: 36px;
+}
+
+.row p a {
+  margin-top: 5px;
+  margin-left: 10px;
+  color:  #fff;
+  text-decoration: none;
+}
+
+.colum3{
+  max-width: 400px;
+}
+
+.colum3 h1{
+  font-size: 22px;
+}
+
+.row2{
+  margin-top: 20px;
+  display: flex;
+}
+
+
+.row2 img{
+  width: 36px;
+  height: 36px;
+}
+
+.row2 label{
+  margin-top: 10px;
+  margin-left: 20px;
+  max-width: 140px;
+}
+
+.container-footer{
+  width: 100%;  
+  background: #101010;
+}
+
+.footer{
+  
+  margin: auto;
+  display: flex;
+  justify-content: center;  
+  padding: 20px;
+  
+}
+
+.copyright{
+  color: #C7C7C7;
+  
+  
+}
+
+.copyright p{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  
+}
+
+
+
+
+@media screen and (max-width: 1100px){
+  
+  .container-body{
+      flex-wrap: wrap;
+  }
+  
+  .colum1{
+      max-width: 100%;
+  }
+  
+  .colum2,
+  .colum3{
+      margin-top: 40px;
+  }
+}
+
+
+
+
+
+/*------------------Estilos responsive------------------*/
+
+@media(min-width:480px) {
+  .logo {
+    font-size: 40px;
+  }
+  .banner__titulo {
+    font-size: 30px;
+    margin: 5px 0;
+  }
+  .banner__txt {
+    display: block;
+    font-size: 18px;
+    margin: 7px 0;
+  }
+  .info, .cursos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -90px;
+  }
+  .info__columna {
+    width: 32%;
+  }
+  .info__titulo {
+    font-size: 30px;
+    margin: 5px 0;
+  }
+  .section__titulo {
+    width: 100%;
+  }
+  .cursos {
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+  .cursos__columna {
+    width: 49%;
+  }
+  .footer .social [class^="icon-"] {
+    margin: 0 10px;
+  }
+}
+@media(min-width:768px) {  
+  .banner__titulo {
+    font-size: 50px;
+  }
+  .cursos__titulo {
+    font-size: 40px;
+  }
+  
+}
+
+@media(min-width:1024px) {  
+  .contenedor {
+    width: 1000px;
+  }
+  .section__titulo {
+    font-size: 50px;
+    margin: 30px 0;
+  }
+  .nav {
+    position: static;
+    width: auto;
+  }
+  .menu {
+    display: flex;
+  }
+  .icon-menu {
+    display: none;
+  }
+  .menu__link {
+    background: none;
+    font-size: 12px;
+    font-style: bold;
+  }
+  .select {
+    color: #fff;
+    background: #FBA919;
+  }
+  .banner__titulo {
+    font-size: 60px;
+  }
+  .banner__txt {
+    font-size: 25px;
+  }
+  .info {
+    margin-top: -120px;
+  }
+  .info__columna {
+    padding: 30px;
+  }
+  .info__titulo {
+    font-size: 40px;
+    text-align: center;
+  }
+  .cursos__descripcion {
+    padding: 20px;
+  }
+  .cursos__titulo {
+    font-size: 50px;
+  }
+  .cursos__txt {
+    font-size: 20px;
+  }
+
+  
+ 
+}
+
+@media(min-width:1280px) {
+  .contenedor {
+    width: 1200px;
+  }
+  .logo {
+    font-size: 60px;
+  }
+  .banner .contenedor {
+    top: 40%;
+  }
+  .info {
+    margin-top: -220px;
+  }
+  
+}

@@ -6,9 +6,8 @@
  */
 
   function run(){
-    addCssRef("public/css/home.css");
-
-    renderizar("home",Array());
+    addCssRef("public/css/computacion.css");
+    renderizar("computacion",Array());
   }
   run();
 ?>
