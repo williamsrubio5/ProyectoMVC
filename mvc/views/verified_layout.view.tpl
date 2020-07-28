@@ -2,12 +2,13 @@
     <html>
         <head>
             <meta charset="utf-8" />
-            <title>{{page_title}}</title>
+            <title>ASOCIACION "PAN,TECHO Y TRABAJO"</title>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
             <link rel="stylesheet" href="public/css/papier.css" />
             <link rel="stylesheet" href="public/css/estilo.css" />
             <link rel="stylesheet" href="public/css/verified.css" />
+            <link rel="stylesheet" href="public/css/layout.css" />
             <script src="public/js/jquery.min.js"></script>
             {{foreach css_ref}}
                 <link rel="stylesheet" href="{{uri}}" />
@@ -17,11 +18,11 @@
 
 
         <body>
-         <h1>ASOCIACION "PAN,TECHO Y TRABAJO"</h1>
+         
 
 
             <div>
-                <div class="brand">{{page_title}}</div>
+                <div class="brand"></div>
                 <div id="cssmenu">
                 <ul>
                     {{if notifnum}}
