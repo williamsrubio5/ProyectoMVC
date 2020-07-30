@@ -30,8 +30,8 @@ function getApiContext()
 {
     $apiContext = new \PayPal\Rest\ApiContext(
         new \PayPal\Auth\OAuthTokenCredential(
-            'AXcXzHlv0KsF1mH0UXm2IAZnC6uqAE0Jt99uvvVkZYyt9RC6KsQy0W1mX3hn9OJuwWlDpPWfFeipA08A', //ClientID
-            'EJBJvgDAGamZP0csmPMpaYcpC-TyLXIBmc70oJtsAKyKI0DYQn1mUUrTXvHIh7-ozdknq_0ZpkKQ9ngR'  //ClientSecret
+            'Ab5scWettLZDlCXy8gw8e1T915-_d7QNVMqZ1ev3EWINpcliGK0fc4x-R0wRZncaZ7ieF1GZ190rP8HY', //ClientID
+            'EABoOXrOoLcQ2jH5WyJ6z3dAO2tEuqXOxNZAduLURw3XTRMmogIGIPN3JIA6tcuXKjBKBAzhnqfkAIYw'  //ClientSecret
         )
     );
     return $apiContext;
