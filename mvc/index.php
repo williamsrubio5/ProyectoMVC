@@ -129,6 +129,21 @@ case "programa":
       include_once "controllers/security/programa.control.php":
       mw_redirectToLogin($_SERVER["QUERY_STRING"]);
     die();
+case "checkout":
+    ($logged) ?
+    include_once "controllers/paypal/checkout.control.php" :
+    mw_redirectToLogin($_SERVER["QUERY_STRING"]);
+    die();
+case "checkoutapr":
+    ($logged) ?
+    include_once "controllers/paypal/checkoutapproved.control.php" :
+    mw_redirectToLogin($_SERVER["QUERY_STRING"]);
+    die();
+case "checkoutcnl":
+    ($logged) ?
+    include_once "controllers/paypal/checkoutcancel.control.php" :
+    mw_redirectToLogin($_SERVER["QUERY_STRING"]);
+    die();
 }
 
 addToContext("pageRequest", $pageRequest);
