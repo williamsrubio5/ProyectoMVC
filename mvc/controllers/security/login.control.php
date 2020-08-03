@@ -12,6 +12,13 @@ require_once 'models/security/security.model.php';
  */
 function run()
 {
+    
+    addCssRef('public/css/reset.css');
+    addCssRef('public/css/login.css');
+    addCssRef('public/css/style.css');
+   
+
+
     $loginData = array(
       "errors" => array(),
       "tocken" => "",

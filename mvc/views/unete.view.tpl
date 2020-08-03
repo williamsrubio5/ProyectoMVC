@@ -1,5 +1,4 @@
-
-    <div class="banner">
+<div class="banner">
      <img src="public/img/unete.jpg" alt="">
       <div class="contenedor">
         <h2 class="banner__titulo">"si pones una mano en la obra se ejecuta, si pones las dos se acelera..."</h2>
@@ -51,5 +50,5 @@
             </form>
             
           </section>
-          <script src="js/validacion.js"></script>
+          <script src="public/js/validacion.js"></script>
     </main>

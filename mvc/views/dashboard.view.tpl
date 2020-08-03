@@ -1,9 +1,7 @@
+
 <section>
-  <h1>Simple PHP MVC</h1>
-</section>
-<section>
-  <h2>Seguridad</h2>
-  <div>
+  <h2>ASOCIACION "PAN, TECHO Y TRABAJO"</h2>
+  <div class="container">
     <ul>
       <li><a href="index.php?page=users">Usuarios</a></li>
       <li><a href="index.php?page=roles">Roles</a></li>

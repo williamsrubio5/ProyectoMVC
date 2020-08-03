@@ -47,20 +47,42 @@ case "login":
 case "logout":
     include_once "controllers/security/logout.control.php";
     die();
-
 case "nosotros":
     include_once "controllers/home.control.php";
     die();
-    case "unete":
+case "unete":
         include_once "controllers/unete.control.php";
         die();
 case "nuestraH":
         include_once "controllers/nuestraH.control.php";
         die();
- case "recreacion":
+case "recreacion":
         include_once "controllers/recreacion.control.php";
-        die(); 
-}
+        die();
+ case "register":
+         include_once "controllers/register.control.php";
+         die();
+case "apadrinar":
+        include_once "controllers/apadrinar.control.php";
+        die();
+case "ayudas":
+            include_once "controllers/ayudas.control.php";
+            die();
+case "ingles":
+            include_once "controllers/ingles.control.php";
+            die();
+ case "computacion":
+            include_once "controllers/computacion.control.php";
+            die();
+case "deportes":
+            include_once "controllers/deportes.control.php";
+            die();
+case "proyectos":
+            include_once "controllers/proyectos.control.php";
+            die();
+        
+    }
+
 
 //Este switch se encarga de todo el enrutamiento que ocupa login
 $logged = mw_estaLogueado();
@@ -110,6 +132,21 @@ case "programa":
     ($logged)?
       include_once "controllers/security/programa.control.php":
       mw_redirectToLogin($_SERVER["QUERY_STRING"]);
+    die();
+case "checkout":
+    ($logged) ?
+    include_once "controllers/paypal/checkout.control.php" :
+    mw_redirectToLogin($_SERVER["QUERY_STRING"]);
+    die();
+case "checkoutapr":
+    ($logged) ?
+    include_once "controllers/paypal/checkoutapproved.control.php" :
+    mw_redirectToLogin($_SERVER["QUERY_STRING"]);
+    die();
+case "checkoutcnl":
+    ($logged) ?
+    include_once "controllers/paypal/checkoutcancel.control.php" :
+    mw_redirectToLogin($_SERVER["QUERY_STRING"]);
     die();
 }
 

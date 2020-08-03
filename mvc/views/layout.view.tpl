@@ -10,7 +10,7 @@
             <link rel="stylesheet" href="public/css/estilo.css" />
             <link rel="stylesheet" href="public/css/layout.css">
 
-            <script src="public/js/jquery.min.js"></script>
+           <!-- <script src="public/js/jquery.min.js"></script> -->
             <script src="public/js/layout.js"></script>
             {{foreach css_ref}}
                 <link rel="stylesheet" href="{{uri}}" />
@@ -28,6 +28,8 @@
                         <li><a href="index.php?page=unete" class="{{index}}">FORMA PARTE DE LA FAMILIA</a></li>
                         <li><a href="index.php?page=" class="{{index}}">APADRINA</a></li>
                         <li><a href="index.php?page=recreacion" class="{{index}}">MVC</a></li>
+                        <li><a href="index.php?page=apadrinar" class="{{index}}">APADRINA</a></li>
+                        <li><a href="index.php?page=login" class="{{index}}">INICIA SESSION</a></li>
                     </ul>
                 </nav>
 

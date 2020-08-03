@@ -1,15 +1,4 @@
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,user-scalable=no ,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
-    
-    <link rel="stylesheet"   href="public/css/recreacion.css">
-    <script src="https://kit.fontawesome.com/a27d97ec24.js" crossorigin="anonymous"></script>
-    <title>Recreacion</title>
-</head>
-<body>
-
-    <div class="banner">
+ <div class="banner">
      <img src="public/img/IMG1.jpg" alt="">
       <div class="contenedor">
         <h2 class="banner__titulo">Sigue tus sueños. Sólo asegurate de tener diversión.</h2>
@@ -54,8 +43,9 @@
           </h3>
     </section>
       
-</div>
-</main>
-
-    <script src="public/js/javascript.js"></script>
+      </div>
+    </main> 
+    <script src="js/javascript.js"></script>
   </body>
+</html>
+

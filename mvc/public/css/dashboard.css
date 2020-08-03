@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400);
+.container{
+    width: 95%;
+    overflow: hidden;
+    background: rgba(10, 48, 73, 0.349);
+    margin: 20px auto;
+    padding: 20px;
+}
+
+ .container ul{
+padding: 0px;
+margin: 0px;
+}
+
+.container ul li {
+    list-style: none;
+    float: left;
+    width: 24%;
+    height: 135px;
+    background: #69AF23;
+    margin: 40px 40px 0px 55px; 
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.container ul li :hover{
+    opacity: 0.9;
+
+}
+
+@media screen and (max-width: 1200px){
+    .container ul li{
+        width: 40%;
+        margin: 40px;
+    }
+}
