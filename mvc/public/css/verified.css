@@ -24,10 +24,10 @@
   height: 0;
 }
 #cssmenu {
-  width: auto;
+ /* width: auto;
   border-bottom: 3px solid #47c9af;
   font-family: Raleway, sans-serif;
-  line-height: 1;
+  line-height: 0;*/
 }
 #cssmenu ul {
   background: #ffffff;
