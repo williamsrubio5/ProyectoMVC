@@ -17,6 +17,11 @@ h1, h2, h3, h4, h5, h6,p {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   letter-spacing: 1.5px;
 }
+
+h1{
+  font-size: 22px;
+}
+
 .section__titulo {
   text-align: center;
   font-size: 40px;
