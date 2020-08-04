@@ -18,12 +18,8 @@
 
 
         <body>
-         
-
-
-            <div>
-                <div class="brand"></div>
-                <div id="cssmenu">
+              <div id="cssmenu">
+                <div class="brand">{{page_title}}</div>
                 <ul>
                     {{if notifnum}}
                     <li><a href="index.php?page=notificacion">
@@ -33,10 +29,14 @@
                     {{foreach appmenu}}
                       <li><a href="index.php?page={{mdlprg}}">{{mdldsc}}</a></li>
                     {{endfor appmenu}}
+                    <!-- Icono carrito de compra. Si se agrega un producto se aumenta el contador y se muestra la cantidad.
+                                                Como es la vista privada del menu, si le da clic activa el controlador de carretilla autenticada -->
+                    {{if cartEntries}}
+                    <li><a href="index.php?page=cartAut"><span class="ion-ios-cart"></span> <span
+                                id="cartcounter">{{cartEntries}}</span></a></li>
+                    {{endif cartEntries}}
                     <li><a href="index.php?page=logout">Cerrar Sesión</a></li>
-                    <li><a href="#">administrador</a></li>
                 </ul>
-                </div>
                 <div class="hbtn"> <div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div></div>
             </div>
 
