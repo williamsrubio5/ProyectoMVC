@@ -16,6 +16,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   letter-spacing: 1.5px;
 }
+
+h1{
+  font-size: 22px;
+}
+
 .section__titulo {
   text-align: center;
   font-size: 40px;
@@ -138,7 +143,7 @@ span {
 display:block;
 text-align:left;
 font-size:16pt;
-
+text-align: justify;
 }
 
 /*-----------------Estilos de cursos-----------------*/
@@ -227,6 +232,7 @@ footer{
   font-size: 14px;
   color:  #fff;
   margin-top: 20px;
+  text-align: justify;
 }
 
 .colum2{

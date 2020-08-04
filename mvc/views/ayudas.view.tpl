@@ -8,18 +8,18 @@
 
 
 
-    <div class="contenedor">
-        <section id="bienvenidos" class="info1">
-            
-                <article class="info11">
-                <h2>UNIDOS SOMOS MAS FUERTES</h2>
-                <p>Actualmente contamos con mas de 300 jovenes beneficiados directamente y 1400 indirectamente  gracias a nuestros esfuerzos y tu apoyo. </p>
-                </article>
-            </section>
-    </div>
 
 
-        <div class="contenedor">
+
+
+
+
+
+
+
+
+
+        <div class="conte">
             <section class="info">
             <article class="info__columna1">
             

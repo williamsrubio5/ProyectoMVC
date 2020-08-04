@@ -32,7 +32,7 @@
 
     <div class="page-container">
         <div class="cont">
-        <h1 class="h1"><font color="white">Crear Nueva Cuenta</font></h1>
+        <h1 class="log"><font color="white">Crear Nueva Cuenta</font></h1>
             <input type="text" name="userName" value="{{userName}}" placeholder="Nombre Completo" id="userName"><br><br>
             <input type="text" name="userEmail" value="{{userEmail}}" placeholder="Correo Electronico" id="userEmail"><br><br>
             <input type="password" name="password" value="{{password}}" placeholder="Contraseña" id="password" ><br><br>
@@ -41,7 +41,7 @@
        </div>
    </form>
 
-    </div>
+   </div>
 
     <!-- Javascript -->
     <script src="public/js/jquery-1.8.2.min.js"></script>

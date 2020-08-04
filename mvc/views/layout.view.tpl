@@ -62,7 +62,7 @@
                  <div class="colum1">
                      <h1>Descripcion del proyecto</h1>
  
-                     <p>Ante los  altos niveles de pobreza, inseguridad  y falta de oportunidades laborales, nos encontramos en una población en alto riesgo sobre todo la niñez y la juventud, es en estos grupos poblacionales es donde se puede mejorar sus habilidades motrices y conductuales. 
+                     <p>Ante los altos niveles de pobreza, inseguridad  y falta de oportunidades laborales, nos encontramos en una población en alto riesgo sobre todo la niñez y la juventud, es en estos grupos poblacionales es donde se puede mejorar sus habilidades motrices y conductuales. 
                     </p>
  
                  </div>

@@ -12,7 +12,7 @@
   </div>
 
     <div class="container">
-        <h1>Inicio de Sesión</h1>
+        <h1 class="log">Inicio de Sesión</h1>
         <input name="returnto" value="{{returnto}}" type="hidden" />
         <input name="tocken" value="{{tocken}}" type="hidden" />
 

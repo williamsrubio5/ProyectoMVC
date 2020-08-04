@@ -160,8 +160,8 @@ body, .menu, .contenido, .footer {
 }
 
 .contenido {
-  padding: 1em;
-  margin-top: 5px;
+  padding: 0em;
+  margin-top: 50px;
   line-height: 1.5;
 }
 
@@ -202,6 +202,7 @@ pre {
 label {
   font-weight: bold;
   padding-top: 0.5em;
+  display: block;
 }
 
 @media screen and (min-width: 568px) {
@@ -573,3 +574,9 @@ select {
 input[type="number"], input[type="date"]{
   text-align: right;
 }
+
+h1{
+  font-size: 22px;
+}
+
+

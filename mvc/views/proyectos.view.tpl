@@ -14,7 +14,7 @@
           </div>
   
           <div id="main-container">
-            <table>
+            <table class="efecto">
             <thead>
             <tr>
                 <th>N</th><th>Descripción</th><th>Cantidad</th>                                      

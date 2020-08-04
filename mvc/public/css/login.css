@@ -16,6 +16,7 @@
     margin-right: 3%;
     margin-left: 3%;
     transition: right .8s ease-in-out;
+    margin-top: 40px;
   }
 
   .btn{

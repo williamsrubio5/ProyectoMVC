@@ -15,6 +15,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   letter-spacing: 1.5px;
 }
+
+h1{
+  font-size: 22px;
+}
 .section__titulo {
   text-align: center;
   font-size: 40px;
@@ -120,33 +124,51 @@ h1, h2, h3, h4, h5, h6 {
   width: auto;
 }
 
-table{
-background-color:white;
-text-align: center;
-border-collapse: collapse;
-width: 100%;
 
+table{
+  background-color:#008677;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.efecto{
+  background-color:#fff;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.efecto td{
+
+  border: solid 1px black;
+  padding: 6px;
 }
 
 th, td{
 
-  border: solid 1px black;
+  border: solid 1px #fff;
   padding: 15px;
 }
 
-thead{
+.efecto thead{
+  background-color: #246355;
+  color: #fff;
+}
+
+.efecto thead{
 
   background-color: #246355;
   border-bottom: solid 5px #0f360f;
-  color: #101010;
+  color: #fff;
 }
 
-tr:nth-child(even){
+.efecto tr:nth-child(even){
 background-color:#ddd;
 
 }
 
-tr:hover td{
+.efecto tr:hover td{
 
   background-color: #369681;
   color: white;
@@ -212,6 +234,7 @@ footer{
   font-size: 14px;
   color:  #fff;
   margin-top: 20px;
+  text-align: justify;
 }
 
 .colum2{

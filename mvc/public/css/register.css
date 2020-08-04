@@ -34,10 +34,11 @@
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 700;
     text-shadow: 0 3px 4px rgba(0,0,0,.2);
     color: #ffffff;
+    text-align: left;
 }
 
 form {
@@ -171,3 +172,7 @@ button:active {
 .connect a:hover { background-position: center bottom; }
 
 ::-webkit-input-placeholder { color: black; }
+
+.log{
+    text-align: center;
+}

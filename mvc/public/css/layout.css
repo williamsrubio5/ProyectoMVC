@@ -149,6 +149,7 @@
     font-size: 14px;
     color:  #fff;
     margin-top: 20px;
+    text-align: justify;
   }
   
   .colum2{
@@ -158,6 +159,7 @@
   
   .colum2 h1{
     font-size: 22px;
+    text-align: left;
   }
   
   .row{
@@ -227,3 +229,8 @@
     
   }
   
+  .colum2 img{
+    max-width: 11%;
+  }
+
+ 
