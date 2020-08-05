@@ -1,7 +1,7 @@
 <section>
 
   <header>
-      <h1 class="center"><span class="ion-card s2"></span>&nbsp; Pago con Paypal</h1>
+      <h1 class="center tt"><span class="ion-card s2"></span>&nbsp; Pago con Paypal</h1>
   </header>
 
   <br/>
@@ -9,7 +9,7 @@
     <section class="col-12 col-md-8 col-offset-2">
       <table class="full-width">
         <thead>
-          <tr class="doradito">
+          <tr class="verde">
             <th>Linea</th>
             <th>SKU</th>
             <th>Producto</th>
@@ -115,7 +115,10 @@
         height: 50px;
     }
 
-    .doradito {
-        background-color: #c18907;
+    .verde {
+        background-color: #1b987d;
     }
+    .tt{
+    color: rgb(147, 207, 69);
+}
 </style>
