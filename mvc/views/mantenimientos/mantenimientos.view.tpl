@@ -1,5 +1,5 @@
 <header>
-  <h1>Mantenimientos</h1>
+  <h1 class="title">MANTENIMIENTOS</h1>
 </header>
 
 <section class="row">
@@ -20,13 +20,18 @@
     padding: 1em;
     text-decoration: none;
   }
+  .title{
+    color: rgb(147, 207, 69);
+
+  }
+
   .bigicon {
     font-size: 3em;
-    color: #826857;
+    color: #20a170;
   }
 
   .desc{
-    color: #826857;
+    color: #024b29;
   }
 
   a.bg-white:hover{

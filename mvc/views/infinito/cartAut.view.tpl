@@ -1,7 +1,7 @@
 <section>
  
   <header>
-      <h1 class="center"><span class="ion-ios-cart s2"></span>&nbsp; Mi Carretilla de Compra</h1>
+      <h1 class="center title"><span class="ion-ios-cart s2"></span>&nbsp; Mi Carretilla de Compra</h1>
   </header>
 
   <br/>
@@ -9,7 +9,7 @@
     <section class="col-12 col-md-8 col-offset-2">
       <table class="full-width ">
         <thead>
-          <tr class="doradito">
+          <tr class="verde">
             <th>Linea</th>
             <th>SKU</th>
             <th>Producto</th>
@@ -30,7 +30,7 @@
                 <td class="right">{{crrprc}}</td>
                 <td class="right">{{total}}</td>
                 <!-- Botones para remover una unidad de un producto o añadir una mas -->
-                <td class="center ">
+                <td class="center">
                     <a href="index.php?page=rmvToCart&codprd={{codprd}}" class="btn s-padding mdftocart"><span class="iconify" data-icon="el:minus" data-inline="false"></span></a>
                     &nbsp;
                     <a href="index.php?page=addToCart&codprd={{codprd}}" class="btn s-padding mdftocart"><span class="iconify" data-icon="el:plus" data-inline="false"></span></a>
@@ -112,7 +112,11 @@
   width:50px;
   height:50px;
 }
-.doradito{
-  background-color: #c18907;
+.verde{
+  background-color: #1b987d;
+}
+
+.title{
+  color: rgb(147, 207, 69);
 }
 </style>

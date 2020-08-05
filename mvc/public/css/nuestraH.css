@@ -1,9 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
-* {
+/** {
   box-sizing: border-box;
   text-align: justify;
 }
+
+*/
 img {
   display: block;
   max-width: 100%;
@@ -32,7 +34,7 @@ h1{
   width: 99%;
 }
 /*-------------------Estilos del header-------------------*/
-.header {
+/*.header {
   height: 60px;
 }
 .header .contenedor {
@@ -54,9 +56,9 @@ h1{
   margin-left: auto;
   cursor: pointer;
 }
-
+*/
 /*------------------Estilos del menu------------------*/
-.nav {
+/*.nav {
   position: absolute;
   top: 60px;
   left: -100%;
@@ -82,9 +84,10 @@ h1{
 .mostrar {
   left: 0;
 }
+*/
 
 /*--------------Estilos de banner--------------*/
-
+/*
 .banner {
   margin-top: -60px;
   position: relative;
@@ -105,6 +108,8 @@ h1{
 .banner__txt {
   display: none;
 }
+
+*/
 /*--------------Estilos de banner--------------*/
 
 .banner {

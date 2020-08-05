@@ -44,7 +44,7 @@
     display: block;
     padding: 10px 40px;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 15px;
     position: relative;
     color: rgba(255, 255, 255, 0.8);
     -webkit-transform: translateX(-15%);
@@ -76,6 +76,13 @@
   nav ul li:nth-child(5n) a {
     background-color: #552382;
   }
+  nav ul li:nth-child(6n) a {
+    background-color: #3254ee;
+  }
+  nav ul li:nth-child(7n) a {
+    background-color: #e71728;
+  }
+
   nav .dot {
     background-color: red;
     width: 6px;

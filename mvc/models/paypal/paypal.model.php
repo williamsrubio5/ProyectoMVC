@@ -51,8 +51,8 @@ function createPaypalTransaction( $_amount , $_items )
 
     //CAMBIAR ESTA DIRECCION URL------------------------------------------------------------------
     $redirectUrls
-        ->setReturnUrl("http://localhost/ParroquiaCR/index.php?page=checkoutappr")
-        ->setCancelUrl("http://localhost/ParroquiaCR/index.php?page=checkoutcancel");
+        ->setReturnUrl("http://localhost/ProyectoMVC/mvc/index.php?page=checkoutappr")
+        ->setCancelUrl("http://localhost/ProyectoMVC/mvc/index.php?page=checkoutcancel");
 
     //Se mandan todos los datos
     $payment = new \PayPal\Api\Payment();

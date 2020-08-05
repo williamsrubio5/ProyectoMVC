@@ -1,13 +1,13 @@
 <section>
     <header>
-        <h1 class="center">Productos</h1>
+        <h1 class="center tt">Productos</h1>
     </header>
 
     <main class="row">
         <div class="col-12 col-md-10 col-offset-1">
             <table class="full-width">
                 <thead>
-                    <tr class="doradito"> 
+                    <tr class="verde"> 
                         <th>Código</th>
                         <th>Descripción</th>
                         <th>Código Interno</th>
@@ -67,8 +67,8 @@
 </script>
 
 <style>
-    .doradito {
-        background-color: #c18907;
+   .verde {
+        background-color: #1b987d;
     }
 
     .ion-plus-circled {
@@ -76,5 +76,9 @@
         height: 50px;
         color: #fff;
     }
+
+    .tt{
+    color: rgb(147, 207, 69);
+}
 
 </style>

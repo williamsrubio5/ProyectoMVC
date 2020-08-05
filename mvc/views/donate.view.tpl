@@ -1,3 +1,20 @@
+
+<head>
+            <meta charset="utf-8" />
+            <title>ASOCIACION "PAN,TECHO Y TRABAJO"</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+            <link rel="stylesheet" href="public/css/papier.css" />
+            <link rel="stylesheet" href="public/css/estilo.css" />
+            <link rel="stylesheet" href="public/css/verified.css" />
+            <link rel="stylesheet" href="public/css/layout.css" />
+            <script src="public/js/jquery.min.js"></script>
+            {{foreach css_ref}}
+                <link rel="stylesheet" href="{{uri}}" />
+            {{endfor css_ref}}
+        </head>
+
+
 <!-- Por cada producto se mostrara una cartita en el inicio de la pagina -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <section class="sec_galeria">

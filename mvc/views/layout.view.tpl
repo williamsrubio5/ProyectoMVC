@@ -9,8 +9,6 @@
             <link rel="stylesheet" href="public/css/papier.css" />
             <link rel="stylesheet" href="public/css/estilo.css" />
             <link rel="stylesheet" href="public/css/layout.css">
-
-           <!-- <script src="public/js/jquery.min.js"></script> -->
             <script src="public/js/layout.js"></script>
             {{foreach css_ref}}
                 <link rel="stylesheet" href="{{uri}}" />
@@ -26,15 +24,15 @@
                         <li class="active"><a href="index.php?page=home" class="{{index}}">INICIO</a></li>
                         <li><a href="index.php?page=nuestraH" class="{{index}}">NUESTRA HISTORIA</a></li>
                         <li><a href="index.php?page=donate" class="{{index}}">DONATIVOS</a></li>
+                        
                         <li><a href="index.php?page=unete" class="{{index}}">FORMA PARTE DE LA FAMILIA</a></li>
-                        <li><a href="index.php?page=" class="{{index}}">APADRINA</a></li>
-                        <li><a href="index.php?page=recreacion" class="{{index}}">MVC</a></li>
                         <li><a href="index.php?page=apadrinar" class="{{index}}">APADRINA</a></li>
                         <li><a href="index.php?page=login" class="{{index}}">INICIA SESSION</a></li>
-                        
                         {{if cartEntries}}
                            <li> <a href="index.php?page=cartAnon" class="{{cart}}"><span class="ion-ios-cart"></span> <span id="cartcounter">{{cartEntries}}</span></a></li>
                         {{endif cartEntries}}
+                        
+                        
                     </ul>
                 </nav>
 

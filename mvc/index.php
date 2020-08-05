@@ -101,6 +101,8 @@ case "addToCart":
    case "cartAnon":
     include_once "controllers/infinito/cartAnon.control.php";
    die();
+
+  
         
     }
 
@@ -110,9 +112,9 @@ $logged = mw_estaLogueado();
 if ($logged) {
     addToContext("layoutFile", "verified_layout");
     include_once 'controllers/mw/autorizar.mw.php';
+     
     if (!isAuthorized($pageRequest, $_SESSION["userCode"])) {
-        include_once"controllers/notauth.control.php";
-        die();
+        include_once"controllers/dashboard.control.php";
     }
     generarMenu($_SESSION["userCode"]);
 }
@@ -157,17 +159,17 @@ case "programa":
 
 case "checkout":
     ($logged) ?
-    include_once "controllers/paypal/checkout.control.php" :
+    include_once "controllers/infinito/paypal/checkout.control.php" :
     mw_redirectToLogin($_SERVER["QUERY_STRING"]);
     die();
 case "checkoutapr":
     ($logged) ?
-    include_once "controllers/paypal/checkoutapproved.control.php" :
+    include_once "controllers/infinito/paypal/checkoutapproved.control.php" :
     mw_redirectToLogin($_SERVER["QUERY_STRING"]);
     die();
 case "checkoutcnl":
     ($logged) ?
-    include_once "controllers/paypal/checkoutcancel.control.php" :
+    include_once "controllers/infinito/paypal/checkoutcancel.control.php" :
     mw_redirectToLogin($_SERVER["QUERY_STRING"]);
     die();
 
@@ -279,6 +281,7 @@ case "programa":
 
  //*Carretilla
   case "cartAut":
+    
     include_once "controllers/infinito/cartAut.control.php";
   die();
 

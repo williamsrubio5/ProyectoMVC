@@ -42,6 +42,7 @@ function isAuthorized($assetCode, $usercod)
 }
 
 
+   
 
 
 
@@ -53,7 +54,11 @@ function hasAccess($functionCode, $usercod)
     }
     if ($_SESSION["userType"] == 'ADM') {
         return true;
+
     }
     return estaAutorizado($usercod, $assetCode);
 }
+
+
+
 ?>

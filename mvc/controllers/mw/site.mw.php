@@ -3,7 +3,7 @@
 require_once "libs/parameters.php";
 function site_init(){
     global $host_server;
-    addToContext("page_title","ASOCIACION PAN, TECHO & TRABAJO");
+   
     addToContext("max_file_size",20); // In Megas
     addToContext("host_server",$host_server); 
     date_default_timezone_set ( "America/Tegucigalpa" );

@@ -162,7 +162,7 @@
 	padding: 8px;
 	background-color: #FFC300;
 	box-shadow: -5px 5px 1px #1b987d;
-  border-radius: 60%;
+  border-radius: 20%;
 }
 
 .tt{
